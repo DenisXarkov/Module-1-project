@@ -5,13 +5,13 @@ body{
 }
 
 /* font-family: 'Roboto Slab', serif; второй шрифт*/ 
-/*.how-to-watch {
+.how-to-watch {
 }
 .about {
 }
 .format {
 }
-*/
+
   .program {
     max-width: 1271px;
     margin: auto;
@@ -49,14 +49,14 @@ body{
   position: absolute;
   bottom: 21px;
 }
-/*
+
 .reviews {
 }
 .start-date {
 }
 .footer {
 }
-*/
+
 
 
 @media (max-width: 991px) {
