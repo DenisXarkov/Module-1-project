@@ -5,17 +5,146 @@ body{
 }
 
 /* font-family: 'Roboto Slab', serif; второй шрифт*/ 
-.how-to-watch {
+/*.how-to-watch {
 }
 .about {
 }
 .format {
 }
-.programm {
+*/
+  .program {
+    max-width: 1271px;
+    margin: auto;
+  }
+  .program h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    margin-left: 74px;
+    margin-bottom: 98px;
+  }
+.program-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -37px;
+
 }
+.program-item {
+  width: 399px;
+  height: 328px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-left: 37px;  
+  margin-top: 41px;
+  position: relative;
+}
+.program h3{
+  margin: 11px 0 38px;
+  padding: 0 14px 0 20px;
+  font-size: 30px;
+  line-height: 1em;
+}
+.program-text {
+  padding: 0 14px 0 20px;
+  font-size: 25px;
+  position: absolute;
+  bottom: 21px;
+}
+/*
 .reviews {
 }
 .start-date {
 }
 .footer {
+}
+*/
+
+
+@media (max-width: 991px) {
+  .program {
+    max-width: 185.92px;
+  }
+  .program h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    margin-left: -47px;
+    margin-right: -40px;
+    margin-bottom: 56px;
+  }
+.program-wrapper {
+  display: block;
+  margin-left: 0;
+
+
+}
+img {
+
+  width: 185.92px;
+  height: 74.56px;
+}
+.program-item {
+  width: 185.92px;
+  height: 152.84px;
+  box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+  border-radius: 13.9792px;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.program h3{
+  margin: 5px 0 19px;
+  padding: 0 7px 0 9px;
+  font-size: 14px;
+  line-height: 1em;
+}
+.program-text {
+  padding: 0 7px 0 9px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 11px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1279px) { /*tablet*/
+  .program {
+    max-width: 736px;
+  }
+  .program h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    margin-left: 21px;
+    margin-bottom: 60px;
+  }
+.program-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -21px;
+
+}
+img {
+
+  width: 231.09px;
+  height: 92.67px;
+}
+.program-item {
+  width: 231.09px;
+  height: 189.97px;
+  box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+  border-radius: 17.375px;
+  margin-left: 21px;  
+  margin-top: 23px;
+  position: relative;
+}
+.program h3{
+  margin: 7px 0 24px;
+  padding: 0 8px 0 11px;
+  font-size: 17px;
+  line-height: 1em;
+}
+.program-text {
+  padding: 0 8px 0 11px;
+  font-size: 14px;
+  position: absolute;
+  bottom: 14px;
+  }
 }
