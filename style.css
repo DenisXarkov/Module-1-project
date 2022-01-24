@@ -2,9 +2,8 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
 }
-
-/* font-family: 'Roboto Slab', serif; второй шрифт*/ 
 .how-to-watch {
 }
 .about {
@@ -27,6 +26,12 @@ body{
 	font-weight: 700;
 	padding-left: 80px;
 	padding-top: 10px;
+	margin-right: 122px;
+}
+h1{
+	font-family: 'Roboto Slab', serif;
+	font-size: 55px;
+	padding-right: 122px;	
 }
 .price{
 	font-size: 25px;
@@ -48,17 +53,22 @@ body{
 	height: 300px;
 	padding-left: 80px;
 }	
-.h3{
+h3{
 	font-size: 25px;
 	font-weight: 400;
 	display: inline-block;
 	width: 294px;
     height: 32px;
+	margin-bottom: -20px;
+}
+p{
+	font-size: 18px;
+	font-weight: 400;
 }
 .level{
-width: 294px;
-height: 70px;
-display: inline-block;
+    width: 294px;
+    height: 70px;
+    display: inline-block;
 }
 .now{
 	width: 294px;
@@ -80,40 +90,63 @@ display: inline-block;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
 	color: white;
-	display: inline-block;
 	width: 230px;
 	height: 40px;
-	padding-right: 147px;
-	padding-top: 18px;
+	display: flex;
+	margin-bottom: 59px;
+}
+.phone-icon{
+	width: 27px;
+	height: 27px;
 }
 .mail{
 	font-size: 25px;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
 	color: white;
-	display: inline-block;
+	display: flex;
 	width: 230px;
 	height: 40px;
-	padding-right: 147px;
-	padding-top: 8px;
-}
-.contacts{
-	display: inline-block;
-}
-.phone-icon{
-	width: 27px;
-	height: 27px;
-padding-right: 400px;
+	margin-top: -200px;
 }
 .mailbox-icon{
 	width: 27px;
 	height: 18px;
-	padding-right: 400px;
-	padding-bottom: 296px;
+	margin-right: 22px;
+	display: flex;
+}
+.contacts{
+	display: inline-block;
+	margin-bottom: 190px;
 }
 .synchro{
-	display: block;
+	display: inline-block;
 	width: 115px;
-	height: 68px;
-	float: left;
+    height: 68px;
+	padding-right: 1240px;
+	padding-top: 50px;
+}
+.social{
+display: inline-block;
+padding-right: 1148px;
+margin-top: 30px;	
+}
+.instagram{
+    width: 33px;
+    height: 33px;
+}
+.facebook{
+	width: 32px;
+    height: 32px;
+	margin-left: 18px;
+}
+.vk{
+	width: 35px;
+    height: 35px;
+	margin-left: 21px;
+}
+.whatsapp{
+	width: 34px;
+    height: 34px;
+	margin-left: 25px;
 }
