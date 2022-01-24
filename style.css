@@ -2,14 +2,77 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
 }
 
-/* font-family: 'Roboto Slab', serif; второй шрифт*/ 
+ 
 .how-to-watch {
 }
 .about {
 }
 .format {
+	display: inline-block;
+	background-color: #E5E5E5;
+	width: 1440px;
+	height: 780px;
+}
+.format-div{
+	width: 1440px;
+	height: 780px;
+	display: flex;
+	
+}
+h1{
+	font-size: 32px;
+	font-weight: 700;
+	padding-left: 70px;
+}
+h3{
+	color: #1E4681;
+	margin-bottom: -8px;
+}
+.web{
+	display: inline-block;
+	width: 239px;
+	height: 23px;
+	padding-left: 70px;
+	font-family: 'Roboto', sans-serif;
+}
+.access{
+	display: inline-block;
+	width: 270px;
+	height: 86px;
+	padding-left: 46px;
+	font-family: 'Roboto', sans-serif;
+}
+.communication{
+	display: inline-block;
+	width: 229px;
+	height: 26px;
+	padding-left: 76px;
+	padding-top: -80px;
+	font-family: 'Roboto', sans-serif;
+}
+.knowledge-block{
+	background-color: #E5E5E5;
+	width: 1440px;
+	height: 780px;
+	margin-top: -520px;
+}
+.knowledge{
+	font-size: 32px;
+	font-weight: 700;
+	padding-left: 70px;
+}
+.info{
+	display: block;
+	width: 355px;
+	height: 221px;
+	padding-left: 70px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	line-height: 22px;
 }
 .programm {
 }
