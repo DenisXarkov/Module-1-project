@@ -19,6 +19,7 @@ body{
 	display: block;
 	width: 1440px;
 	height: 780px;
+	margin: auto;
 }
 .date{
 	font-size: 55px;
@@ -28,7 +29,7 @@ body{
 	padding-top: 10px;
 	margin-right: 122px;
 }
-h1{
+.start-date h1{
 	font-family: 'Roboto Slab', serif;
 	font-size: 55px;
 	padding-right: 122px;	
@@ -53,7 +54,7 @@ h1{
 	height: 300px;
 	padding-left: 80px;
 }	
-h3{
+.info h3{
 	font-size: 25px;
 	font-weight: 400;
 	display: inline-block;
@@ -61,7 +62,7 @@ h3{
     height: 32px;
 	margin-bottom: -20px;
 }
-p{
+.info p{
 	font-size: 18px;
 	font-weight: 400;
 }
@@ -83,6 +84,7 @@ p{
 	background-color: black;
 	width: 1440px;
 	height: 390px;
+	margin: auto;
 	margin-top: -18px;
 }
 .phone{
