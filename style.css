@@ -14,11 +14,9 @@ body{
 	display: inline-block;
 	background-color: #E5E5E5;
 	width: 1440px;
-	height: 780px;
 }
 .format-div{
 	width: 1440px;
-	height: 780px;
 	display: flex;
 	
 }
@@ -77,7 +75,48 @@ h3{
 .programm {
 }
 .reviews {
+    background-color: #EFEFEF;
+	width: 1440px;
+	font-weight: bold;
+	line-height: 101.38%;
+	color: black;
 }
+.reviews-wrapper-block {
+	max-width: 1192px;
+	
+}
+.additional-text-block {
+	font-family: Roboto;
+	font-size: 20px;
+	line-height: 30px;
+}
+.course-block {
+	font-size: 55px;
+	font-family: Roboto Slab;
+}
+.participant-block {
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 30px;
+	border: 1px solid black;
+	background-color: brown;
+	width: 791px;
+}
+.name-block {
+	display:flex;
+	flex-direction: column;
+}
+.facebook-icon {
+	width: 32px;
+	height: 31px;
+	padding-top: 30px;
+}
+
+
+
+
+
+
 .start-date {
 	background-color: #9DC9C8;
 	display: block;
