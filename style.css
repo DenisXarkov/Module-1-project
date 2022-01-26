@@ -203,12 +203,206 @@ margin-bottom: 36px;
 
 
 .format {
+	display: inline-block;
+	background-color: #E5E5E5;
+	width: 1440px;
+	height: 780px;
+}
+.format-div{
+	width: 1440px;
+	height: 780px;
+	display: flex;
+	
+}
+h1{
+	font-size: 32px;
+	font-weight: 700;
+	padding-left: 70px;
+}
+h3{
+	color: #1E4681;
+	margin-bottom: -8px;
+}
+.web{
+	display: inline-block;
+	width: 239px;
+	height: 23px;
+	padding-left: 70px;
+	font-family: 'Roboto', sans-serif;
+}
+.access{
+	display: inline-block;
+	width: 270px;
+	height: 86px;
+	padding-left: 46px;
+	font-family: 'Roboto', sans-serif;
+}
+.communication{
+	display: inline-block;
+	width: 229px;
+	height: 26px;
+	padding-left: 76px;
+	padding-top: -80px;
+	font-family: 'Roboto', sans-serif;
+}
+.knowledge-block{
+	background-color: #E5E5E5;
+	width: 1440px;
+	height: 780px;
+	margin-top: -520px;
+}
+.knowledge{
+	font-size: 32px;
+	font-weight: 700;
+	padding-left: 70px;
+}
+.info{
+	display: block;
+	width: 355px;
+	height: 221px;
+	padding-left: 70px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	line-height: 22px;
 }
 .programm {
 }
 .reviews {
 }
 .start-date {
+	background-color: #9DC9C8;
+	display: block;
+	width: 1440px;
+	height: 780px;
+}
+.date{
+	font-size: 55px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	padding-left: 80px;
+	padding-top: 10px;
+	margin-right: 122px;
+}
+h1{
+	font-family: 'Roboto Slab', serif;
+	font-size: 55px;
+	padding-right: 122px;	
+}
+.price{
+	font-size: 25px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
+.cost{
+	font-size: 80px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	margin-top: -30px;
+}
+.info{
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	width: 731px;
+	height: 300px;
+	padding-left: 80px;
+}	
+h3{
+	font-size: 25px;
+	font-weight: 400;
+	display: inline-block;
+	width: 294px;
+    height: 32px;
+	margin-bottom: -20px;
+}
+p{
+	font-size: 18px;
+	font-weight: 400;
+}
+.level{
+    width: 294px;
+    height: 70px;
+    display: inline-block;
+}
+.now{
+	width: 294px;
+	height: 70px;
+	display: inline-block;
+	margin-left: 70px;	
 }
 .footer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	background-color: black;
+	width: 1440px;
+	height: 390px;
+	margin-top: -18px;
+}
+.phone{
+	font-size: 25px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	width: 230px;
+	height: 40px;
+	display: flex;
+	margin-bottom: 59px;
+}
+.phone-icon{
+	width: 27px;
+	height: 27px;
+}
+.mail{
+	font-size: 25px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	display: flex;
+	width: 230px;
+	height: 40px;
+	margin-top: -200px;
+}
+.mailbox-icon{
+	width: 27px;
+	height: 18px;
+	margin-right: 22px;
+	display: flex;
+}
+.contacts{
+	display: inline-block;
+	margin-bottom: 190px;
+}
+.synchro{
+	display: inline-block;
+	width: 115px;
+    height: 68px;
+	padding-right: 1240px;
+	padding-top: 50px;
+}
+.social{
+display: inline-block;
+padding-right: 1148px;
+margin-top: 30px;	
+}
+.instagram{
+    width: 33px;
+    height: 33px;
+}
+.facebook{
+	width: 32px;
+    height: 32px;
+	margin-left: 18px;
+}
+.vk{
+	width: 35px;
+    height: 35px;
+	margin-left: 21px;
+}
+.whatsapp{
+	width: 34px;
+    height: 34px;
+	margin-left: 25px;
 }
