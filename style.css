@@ -14,6 +14,7 @@ body {
 .conteiner-watch {
 	max-width: 1226px;
 	margin: auto;
+	align-content: center;
 }
 .syncing {
 	max-width: 112px;
@@ -268,15 +269,15 @@ h3{
 }
 .reviews {
     background-color: #EFEFEF;
-	max-width: 1440px;
-	align-content: center;
+	width: 100%;
 }
 .reviews-wrapper-block {
 	max-width: 1192px;
 	margin: auto;
+	align-content: center;
 	height: 780px;
 }
-.main-text {
+.main-text-paragraph {
 	padding-top: 45px;
 }
 .course-block {
@@ -309,7 +310,7 @@ h3{
 .name-block {
 	display:flex;
 	flex-direction: column;
-	padding: 14px 0 20px 30px;
+	padding: 14px 0 20px 28px;
 }
 .facebook-icon {
 	width: 32px;
@@ -317,6 +318,7 @@ h3{
 	padding: 46px 0 14px 0;
 }
 .name {
+	font-family: Roboto Slab;
 	color: #000000;
 	font-size: 30px;
 	font-weight: bold;
@@ -324,7 +326,7 @@ h3{
 	width: auto;
 }
 .picture-block {
-	padding: 14px 0 0 30px;
+	padding: 14px 0 0 31px;
 }
 
 
