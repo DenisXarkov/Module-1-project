@@ -268,7 +268,8 @@ h3{
 }
 .reviews {
     background-color: #EFEFEF;
-	width: 1440px;
+	max-width: 1440px;
+	align-content: center;
 }
 .reviews-wrapper-block {
 	max-width: 1192px;
