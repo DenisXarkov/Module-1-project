@@ -206,11 +206,9 @@ margin-bottom: 36px;
 	display: inline-block;
 	background-color: #E5E5E5;
 	width: 1440px;
-	height: 780px;
 }
 .format-div{
 	width: 1440px;
-	height: 780px;
 	display: flex;
 	
 }
@@ -269,7 +267,67 @@ h3{
 .programm {
 }
 .reviews {
+    background-color: #EFEFEF;
+	max-width: 1440px;
+	align-content: center;
 }
+.reviews-wrapper-block {
+	max-width: 1192px;
+	margin: auto;
+	height: 780px;
+}
+.main-text {
+	padding-top: 45px;
+}
+.course-block {
+	font-size: 55px;
+	font-family: Roboto Slab;
+	font-weight: bold;
+	line-height: 56px;
+	color: black;
+}
+.additional-wrapper-block {
+	width: 791px;
+	height: 451px;
+	box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+	background-color: #FFFFFF;
+	border-radius: 30px;
+    margin-top: 70px;
+}
+.additional-text-block {
+	font-family: Roboto;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	text-align: left;
+	padding: 41px 37px 0 49px;
+}
+.participant-block {
+	display: flex;
+	align-items: center;
+}
+.name-block {
+	display:flex;
+	flex-direction: column;
+	padding: 14px 0 20px 30px;
+}
+.facebook-icon {
+	width: 32px;
+	height: 31px;
+	padding: 46px 0 14px 0;
+}
+.name {
+	color: #000000;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 30px;
+	width: auto;
+}
+.picture-block {
+	padding: 14px 0 0 30px;
+}
+
+
 .start-date {
 	background-color: #9DC9C8;
 	display: block;
