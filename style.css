@@ -457,141 +457,139 @@ line-height: 1.3em;
 .picture-block {
 	padding: 14px 0 0 31px;
 }
-
-
+.date-wrapper{
+	max-width: 1440px;
+	margin: auto;
+}
 .start-date {
 	background-color: #9DC9C8;
 	display: block;
-	width: 1440px;
+	width: 100%;
 	height: 780px;
+	margin: auto;
+	position: relative;
 }
-.date{
+.date {
 	font-size: 55px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	padding-left: 80px;
 	padding-top: 10px;
-	margin-right: 122px;
 }
 .start-date h1{
 	font-family: 'Roboto Slab', serif;
-	font-size: 55px;
-	padding-right: 122px;	
+	font-size: 55px;	
 }
-.price{
+.price {
 	font-size: 25px;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
 }
-.cost{
+.cost {
 	font-size: 80px;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
 	margin-top: -30px;
+}
+.level-block {
+	max-width: 731px;
+	max-height: 125px;
 }
 .start-date .info{
 	font-size: 18px;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
 	display: flex;
-	width: 731px;
-	height: 300px;
-	padding-left: 80px;
 }	
 .start-date h3{
 	font-size: 25px;
 	font-weight: 400;
-	display: inline-block;
+	color: #000000;
 	width: 294px;
     height: 32px;
-	margin-bottom: -20px;
 }
-.start-date p{
+.info p{
 	font-size: 18px;
 	font-weight: 400;
 }
-.level{
-    width: 294px;
-    height: 70px;
-    display: inline-block;
+.level {
+   max-width: 294px;
+   height: 70px;
+   display: inline-block;
 }
-.now{
-	width: 294px;
-	height: 70px;
+.now {
+	max-width: 294px;
 	display: inline-block;
-	margin-left: 70px;	
+	padding-left: 40px;
 }
 .footer {
 	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
 	background-color: black;
-	width: 1440px;
+	max-width: 100%;
 	height: 390px;
 	margin-top: -18px;
 }
-.phone{
-	font-size: 25px;
-	font-weight: 400;
-	font-family: 'Roboto', sans-serif;
-	color: white;
-	width: 230px;
-	height: 40px;
-	display: flex;
-	margin-bottom: 59px;
+
+.phone {
+	margin: 54px 0px 0px -50px;
 }
-.phone-icon{
-	width: 27px;
-	height: 27px;
-}
-.mail{
+.phone span {
 	font-size: 25px;
-	font-weight: 400;
-	font-family: 'Roboto', sans-serif;
+	line-height: 25px;
+	color: #ffffff;
+}
+
+.phone-icon {
+	margin: 0 17px 0 0;
+	max-width: 27px;
+}
+.mail {
+	font-size: 25px;
 	color: white;
 	display: flex;
-	width: 230px;
-	height: 40px;
-	margin-top: -200px;
+	margin: 14px 180px 0px -51px;
 }
-.mailbox-icon{
-	width: 27px;
-	height: 18px;
-	margin-right: 22px;
+.mailbox-icon {
+	margin: 7px 22px 0px 0px;
+	max-height: 18px;
+}
+
+.synchro {
+	max-width: 115px;
+}
+.social {
 	display: flex;
+	width: 100%;
+	flex-direction: column;
+	padding: 50px 0px 0px 120px;
 }
-.contacts{
-	display: inline-block;
-	margin-bottom: 190px;
+.social-icons {
+	padding: 28px 0 0 0;
 }
-.synchro{
-	display: inline-block;
-	width: 115px;
-    height: 68px;
-	padding-right: 1240px;
-	padding-top: 50px;
+.instagram {
+	max-width: 33px;
+	max-height: 33px;
 }
-.social{
-display: inline-block;
-padding-right: 1148px;
-margin-top: 30px;	
+.facebook {
+	max-width: 32px;
+	max-height: 32px;
+	margin-left: 13px;
 }
-.instagram{
-    width: 33px;
-    height: 33px;
-}
-.facebook{
-	width: 32px;
-    height: 32px;
+.vk {
+	max-width: 35px;
+	/* height: 35px; */
 	margin-left: 18px;
 }
-.vk{
-	width: 35px;
-    height: 35px;
-	margin-left: 21px;
+.whatsapp {
+	max-width: 34px;
+	max-height: 34px;
+	margin-left: 22px;
 }
-.whatsapp{
-	width: 34px;
-    height: 34px;
-	margin-left: 25px;
+.footer-syncing {
+	position: relative;
+	top: 100%;
+	color: white;
+	max-width: 230px;
+	font-size: 18px;
+	line-height: 18px;
+	margin: 34px 0px 0px -1px;
 }
