@@ -308,6 +308,7 @@ line-height: 1.3em;
 @media (max-width: 991px) { /*smartphone*/
   .program {
     max-width: 185.92px;
+    margin: auto;
   }
   .program h1 {
     font-family: 'Roboto Slab', serif;
@@ -319,8 +320,6 @@ line-height: 1.3em;
   .program-wrapper {
   display: block;
   margin-left: 0;
-
-
   }
   .program img {
 
@@ -356,6 +355,7 @@ line-height: 1.3em;
 @media (min-width: 992px) and (max-width: 1279px) { /*tablet*/
   .program {
     max-width: 736px;
+    margin: auto;
   }
   .program h1 {
     font-family: 'Roboto Slab', serif;
