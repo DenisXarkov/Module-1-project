@@ -440,12 +440,11 @@ line-height: 1.3em;
 .name-block {
 	display:flex;
 	flex-direction: column;
-	padding: 14px 0 20px 28px;
+	padding: 0 0 20px 28px;
 }
 .facebook-icon {
 	width: 32px;
 	height: 31px;
-	padding: 46px 0 14px 0;
 }
 .name {
 	font-family: Roboto Slab;
