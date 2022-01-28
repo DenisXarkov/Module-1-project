@@ -279,6 +279,7 @@ margin-bottom: 36px;
 display: flex;
 flex-wrap: wrap;
 margin-left: -37px;
+padding-bottom: 121px;
 
 }
 .program-item {
@@ -320,6 +321,7 @@ line-height: 1.3em;
   .program-wrapper {
   display: block;
   margin-left: 0;
+  padding-bottom: 47px;
   }
   .program img {
 
@@ -356,6 +358,7 @@ line-height: 1.3em;
   .program {
     max-width: 736px;
     margin: auto;
+
   }
   .program h1 {
     font-family: 'Roboto Slab', serif;
@@ -367,7 +370,7 @@ line-height: 1.3em;
   display: flex;
   flex-wrap: wrap;
   margin-left: -21px;
-
+  padding-bottom: 53px;
   }
   .program img {
 
