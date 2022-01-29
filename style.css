@@ -404,11 +404,7 @@ line-height: 1.3em;
 .reviews-wrapper-block {
 	max-width: 1192px;
 	margin: auto;
-	align-content: center;
-	height: 780px;
-}
-.main-text-paragraph {
-	padding-top: 45px;
+	padding: 45px 15px 125px 15px;
 }
 .course-block {
 	font-size: 55px;
@@ -419,11 +415,11 @@ line-height: 1.3em;
 }
 .additional-wrapper-block {
 	width: 791px;
-	height: 451px;
 	box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
 	background-color: #FFFFFF;
 	border-radius: 30px;
     margin-top: 70px;
+	padding-bottom: 25px;	
 }
 .additional-text-block {
 	font-family: Roboto;
@@ -455,9 +451,74 @@ line-height: 1.3em;
 	width: auto;
 }
 .picture-block {
-	padding: 14px 0 0 31px;
+	padding: 12px 0 0 31px;
 }
+@media (min-width: 992px) and (max-width: 1279px) /*tablet*/ {
+	.reviews {
+		background-color: #EFEFEF;
+		width: 100%;
+	}
+	.reviews-wrapper-block {
+		max-width: 689px;
+		margin: auto;
+	} 
+	.course-block {
+		font-size: 32px;
+		font-family: Roboto Slab;
+		font-weight: bold;
+		line-height: 32px;
+		color: black; 
+	}
+	.additional-text-block {
+		font-family: Roboto;
+		font-size: 12px;
+		line-height: 18px;
+		font-weight: 400;
+		text-align: left;
+		padding: 41px 37px 0 49px;
+	}
+	.name {
+		font-family: Roboto Slab;
+		color: #000000;
+		font-size: 17px;
+		font-weight: bold;
+		line-height: 17px;
+		width: auto;
+	}
+	.additional-wrapper-block {
+		width: 571.64px;
+		box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+		background-color: #FFFFFF;
+		border-radius: 30px;
+		margin-top: 70px;
+		padding-bottom: 25px;
+	}
 
+	@media (min-width: 320px) and (max-width: 991px) /*smartphone*/ {
+		.reviews {
+			background-color: #EFEFEF;
+			width: 100%;
+		}
+		.reviews-wrapper-block {
+			max-width: 308px;
+			margin: auto;
+			padding: 45px 15px 125px 15px;
+		}
+		.course-block {
+			font-size: 26px;
+			font-family: Roboto Slab;
+			font-weight: bold;
+			line-height: 26px;
+			color: black; 
+		}
+		.additional-text-block {
+			font-family: Roboto;
+			font-size: 10px;
+			line-height: 15px;
+			font-weight: 400;
+			text-align: left;
+			
+	}
 
 .start-date {
 	background-color: #9DC9C8;
