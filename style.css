@@ -352,10 +352,9 @@ line-height: 1.3em;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1279px) { /*tablet*/
-  .program {
-    max-width: 736px;
-    margin: auto;
+@media (min-width: 834px) and (min-width: 671px) {
+  .participant-block{
+   flex-direction: column;
   }
   .program h1 {
     font-family: 'Roboto Slab', serif;
@@ -457,16 +456,19 @@ line-height: 1.3em;
 .picture-block {
 	padding: 14px 0 0 31px;
 }
+@media (max-width: 671px) and (min-width: 376px){
+	.start-date{
+flex-direction: column;
+	}
+}
 .date-wrapper{
-	max-width: 1440px;
+	max-width: 1221px;
 	margin: auto;
+	padding: 180px 15px;
 }
 .start-date {
 	background-color: #9DC9C8;
-	display: block;
 	width: 100%;
-	height: 780px;
-	margin: auto;
 	position: relative;
 }
 .date {
@@ -475,7 +477,7 @@ line-height: 1.3em;
 	font-weight: 700;
 	padding-top: 10px;
 }
-.start-date h1{
+.start-date h2{
 	font-family: 'Roboto Slab', serif;
 	font-size: 55px;	
 }
@@ -483,16 +485,24 @@ line-height: 1.3em;
 	font-size: 25px;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
+	margin-top: 0;
+	margin-bottom: -10px;
 }
 .cost {
 	font-size: 80px;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
-	margin-top: -30px;
+	margin-top: 0;
+	margin-bottom: 153px;
 }
+.level-block-wrapper{
+	display: flex;
+	max-width: 658px;
+	}
 .level-block {
-	max-width: 731px;
+	max-width: 294px;
 	max-height: 125px;
+	margin-right: 20px;
 }
 .start-date .info{
 	font-size: 18px;
@@ -516,19 +526,29 @@ line-height: 1.3em;
    height: 70px;
    display: inline-block;
 }
-.now {
-	max-width: 294px;
-	display: inline-block;
-	padding-left: 40px;
+@media (max-width: 671px) and (min-width: 376px){
+	.footer{
+flex-direction: column;
+	}
+}
+.footer-wrapper {
+	max-width: 1221px;
+    margin: auto;
+	display: flex;
+	padding: 40px 15px;
+	justify-content: space-between;
+}
+.footer-wrapper-flex{
+	display: flex;
+	width: 100%;
 }
 .footer {
-	display: flex;
 	background-color: black;
-	max-width: 100%;
-	height: 390px;
-	margin-top: -18px;
+	width: 100%;
 }
-
+.contacts{
+	max-width: 290px;
+}
 .phone {
 	margin: 54px 0px 0px -50px;
 }
@@ -537,7 +557,6 @@ line-height: 1.3em;
 	line-height: 25px;
 	color: #ffffff;
 }
-
 .phone-icon {
 	margin: 0 17px 0 0;
 	max-width: 27px;
@@ -560,7 +579,7 @@ line-height: 1.3em;
 	display: flex;
 	width: 100%;
 	flex-direction: column;
-	padding: 50px 0px 0px 120px;
+	position: relative;
 }
 .social-icons {
 	padding: 28px 0 0 0;
@@ -585,11 +604,10 @@ line-height: 1.3em;
 	margin-left: 22px;
 }
 .footer-syncing {
-	position: relative;
+	display: flex;
 	top: 100%;
 	color: white;
 	max-width: 230px;
 	font-size: 18px;
-	line-height: 18px;
-	margin: 34px 0px 0px -1px;
+	padding-left: 316px;
 }
