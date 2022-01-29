@@ -534,13 +534,12 @@ flex-direction: column;
 .footer-wrapper {
 	max-width: 1221px;
     margin: auto;
-	display: flex;
 	padding: 40px 15px;
-	justify-content: space-between;
 }
 .footer-wrapper-flex{
 	display: flex;
 	width: 100%;
+	margin-bottom: 148px;
 }
 .footer {
 	background-color: black;
@@ -603,11 +602,9 @@ flex-direction: column;
 	max-height: 34px;
 	margin-left: 22px;
 }
-.footer-syncing {
-	display: flex;
-	top: 100%;
+.footer-syncing-text {
+	margin-top: 100px;
 	color: white;
 	max-width: 230px;
 	font-size: 18px;
-	padding-left: 316px;
 }
