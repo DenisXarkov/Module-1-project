@@ -593,16 +593,19 @@ body {
 .picture-block {
 	padding: 14px 0 0 31px;
 }
-.date-wrapper {
-	max-width: 1440px;
+@media (max-width: 671px) and (min-width: 376px){
+	.start-date{
+flex-direction: column;
+	}
+}
+.date-wrapper{
+	max-width: 1221px;
 	margin: auto;
+	padding: 180px 15px;
 }
 .start-date {
-	background-color: #9dc9c8;
-	display: block;
+	background-color: #9DC9C8;
 	width: 100%;
-	height: 780px;
-	margin: auto;
 	position: relative;
 }
 .date {
@@ -610,25 +613,34 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-weight: 700;
 	padding-top: 10px;
+	margin-bottom: 54px;
 }
-.start-date h1 {
-	font-family: "Roboto Slab", serif;
-	font-size: 55px;
+.start-date h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 55px;	
 }
 .price {
+	font-family: "Roboto", sans-serif;
 	font-size: 25px;
 	font-weight: 400;
-	font-family: "Roboto", sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 .cost {
 	font-size: 80px;
 	font-weight: 400;
-	font-family: "Roboto", sans-serif;
-	margin-top: -30px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 0;
+	margin-bottom: 153px;
 }
+.level-block-wrapper{
+	display: flex;
+	max-width: 658px;
+	}
 .level-block {
-	max-width: 731px;
+	max-width: 294px;
 	max-height: 125px;
+	margin-right: 20px;
 }
 .start-date .info {
 	font-size: 18px;
@@ -652,19 +664,28 @@ body {
 	height: 70px;
 	display: inline-block;
 }
-.now {
-	max-width: 294px;
-	display: inline-block;
-	padding-left: 40px;
+@media (max-width: 671px) and (min-width: 376px){
+	.footer{
+flex-direction: column;
+	}
+}
+.footer-wrapper {
+	max-width: 1221px;
+    margin: auto;
+	padding: 40px 15px;
+}
+.footer-wrapper-flex{
+	display: flex;
+	width: 100%;
+	margin-bottom: 148px;
 }
 .footer {
-	display: flex;
 	background-color: black;
-	max-width: 100%;
-	height: 390px;
-	margin-top: -18px;
+	width: 100%;
 }
-
+.contacts{
+	max-width: 290px;
+}
 .phone {
 	margin: 54px 0px 0px -50px;
 }
@@ -673,7 +694,6 @@ body {
 	line-height: 25px;
 	color: #ffffff;
 }
-
 .phone-icon {
 	margin: 0 17px 0 0;
 	max-width: 27px;
@@ -696,7 +716,7 @@ body {
 	display: flex;
 	width: 100%;
 	flex-direction: column;
-	padding: 50px 0px 0px 120px;
+	position: relative;
 }
 .social-icons {
 	padding: 28px 0 0 0;
@@ -720,12 +740,9 @@ body {
 	max-height: 34px;
 	margin-left: 22px;
 }
-.footer-syncing {
-	position: relative;
-	top: 100%;
+.footer-syncing-text {
+	margin-top: 100px;
 	color: white;
 	max-width: 230px;
 	font-size: 18px;
-	line-height: 18px;
-	margin: 34px 0px 0px -1px;
 }
