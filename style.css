@@ -773,7 +773,6 @@ flex-direction: column;
 	.footer{
 flex-direction: column;
 	}
-}
 .footer-wrapper {
 	max-width: 1221px;
     margin: auto;
@@ -850,4 +849,5 @@ flex-direction: column;
 	color: white;
 	max-width: 230px;
 	font-size: 18px;
+}
 }
