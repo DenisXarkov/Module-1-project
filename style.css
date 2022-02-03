@@ -557,7 +557,7 @@ line-height: 1.3em;
 	max-width: 1192px;
 	margin: auto;
 	align-content: center;
-	height: 780px;
+	padding-bottom: 95px;
 }
 .main-text-paragraph {
 	padding-top: 45px;
@@ -570,8 +570,8 @@ line-height: 1.3em;
 	color: black;
 }
 .additional-wrapper-block {
-	width: 791px;
-	height: 451px;
+	max-width: 791px;
+	padding-bottom: 30px;
 	box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
 	background-color: #ffffff;
 	border-radius: 30px;
@@ -609,6 +609,95 @@ line-height: 1.3em;
 .picture-block {
 	padding: 14px 0 0 31px;
 }
+
+@media screen and (min-width: 992px) and (max-width: 1279px) /*tablet*/ {
+	.reviews-wrapper-block {
+		max-width: 689px;
+		margin-left: 71px;
+		padding-bottom: 65px;
+	}
+	.additional-wrapper-block {
+		max-width: 466px;
+		padding-bottom: 2px;
+		margin-top: 46px;
+		border-radius: 17px;
+	}
+	.main-text-paragraph {
+		padding-top: 20px;
+	}
+	.course-block {
+		font-size: 32px;
+		line-height: 32px;
+	}	
+	.additional-text-block {
+		font-size: 12px;
+		line-height: 18px;
+		padding: 19px 50px 0 29px;
+	}
+	.name-block {
+		padding: 0 0 24px 4px;
+	}
+	.name {
+		font-size: 17px;
+		line-height: 17px;
+	}
+	.facebook-icon {
+		width: 19px;
+		height: 18px;
+	}
+	.girl {
+		width: 110px;
+		height: 98px;
+	}
+	.picture-block {
+		padding: 2px 14px 13px 17px;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 991px) /*smartphone*/ {
+	.reviews-wrapper-block {
+		max-width: 308px;
+		margin-left: auto;
+		padding-bottom: 60px;
+   }
+    .additional-wrapper-block {
+	    max-width: 466px;
+        padding-bottom: 0;
+        margin-top: 29px;
+        border-radius: 17px;
+   }
+    .course-block {
+	    font-size: 26px;
+	    line-height: 26px;
+	}
+	.additional-text-block {
+		font-size: 10px;
+        line-height: 15px;
+        padding: 18px 21px 0 22px;
+	}
+	.main-text-paragraph {
+		width: 280px;
+		padding-top: 20px;
+	}
+	.name {
+		font-size: 14px;
+		line-height: 14px;
+	}
+	.facebook-icon {
+		width: 17px;
+		height: 18px;
+	}
+	.girl {
+		width: 98px;
+		height: 86px;
+	}
+	.name-block {
+		padding: 0 0 27px 4px;
+	}
+	.picture-block {
+		padding: 1px 1px 12px 11px;
+	}
+}
+
 @media (max-width: 671px) and (min-width: 376px){
 	.start-date{
 flex-direction: column;
@@ -684,7 +773,6 @@ flex-direction: column;
 	.footer{
 flex-direction: column;
 	}
-}
 .footer-wrapper {
 	max-width: 1221px;
     margin: auto;
@@ -761,4 +849,5 @@ flex-direction: column;
 	color: white;
 	max-width: 230px;
 	font-size: 18px;
+}
 }
