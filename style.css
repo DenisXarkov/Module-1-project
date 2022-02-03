@@ -353,14 +353,14 @@ body {
 
 .format {
 	display: inline-block;
-	background-color: #e5e5e5;
-	width: 1440px;
+	width: 100%;
 }
-.format-div {
-	width: 1440px;
+.format-div{
+	max-width: 1221px;
+	height: 780px;
 	display: flex;
 }
-.format h1 {
+.format h2 {
 	font-size: 32px;
 	font-weight: 700;
 	padding-left: 70px;
@@ -368,11 +368,12 @@ body {
 .format h3 {
 	color: #1e4681;
 	margin-bottom: -8px;
+	font-size: 25px;
+	line-height: 130%;
+	font-weight: 700;
 }
-.web {
-	display: inline-block;
+.web{
 	width: 239px;
-	height: 23px;
 	padding-left: 70px;
 	font-family: "Roboto", sans-serif;
 }
@@ -391,9 +392,9 @@ body {
 	padding-top: -80px;
 	font-family: "Roboto", sans-serif;
 }
-.knowledge-block {
-	background-color: #e5e5e5;
-	width: 1440px;
+.knowledge-block{
+	
+	width: 100%;
 	height: 780px;
 	margin-top: -520px;
 }
@@ -409,46 +410,49 @@ body {
 	padding-left: 70px;
 	font-size: 14px;
 	font-weight: 400;
-	font-family: "Roboto", sans-serif;
-	line-height: 22px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 150%;
+	
 }
 .program {
-	max-width: 1271px;
-	margin: auto;
+  max-width: 1271px;
+  margin: auto;
 }
 .program h1 {
-	font-family: "Roboto Slab", serif;
-	font-size: 55px;
-	margin-left: 37px;
-	margin-bottom: 83px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 55px;
+  margin-left: 37px;
+  margin-bottom: 83px;
 }
 .program-wrapper {
-	display: flex;
-	flex-wrap: wrap;
-	margin-left: -37px;
+display: flex;
+flex-wrap: wrap;
+margin-left: -37px;
+padding-bottom: 121px;
+
 }
 .program-item {
-	width: 399px;
-	height: 328px;
-	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-	border-radius: 30px;
-	margin-left: 37px;
-	margin-top: 41px;
-	position: relative;
+width: 399px;
+height: 328px;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+margin-left: 37px;  
+margin-top: 41px;
+position: relative;
 }
 
-.program h3 {
-	margin: 12px 0 30px;
-	padding: 0 14px 0 20px;
-	font-size: 30px;
-	line-height: 1em;
+.program h3{
+margin: 12px 0 30px;
+padding: 0 14px 0 20px;
+font-size: 30px;
+line-height: 1em;
 }
 .program-text {
-	padding: 0 14px 0 19px;
-	font-size: 25px;
-	position: absolute;
-	bottom: 20px;
-	line-height: 1.3em;
+padding: 0 14px 0 19px;
+font-size: 25px;
+position: absolute;
+bottom: 20px;
+line-height: 1.3em;
 }
 
 @media (max-width: 991px) { /*smartphone*/
@@ -468,22 +472,36 @@ body {
   margin-left: 0;
   padding-bottom: 47px;
   }
-  
+  .program img {
 
-    .program h3 {
-		margin: 4px 0 19px;
-		padding: 0 7px 0 9px;
-		font-size: 14px;
-		line-height: 1em;
-	}
-	.program-text {
-		padding: 0 7px 0 9px;
-		font-size: 12px;
-		position: absolute;
-		bottom: 7px;
-		line-height: 1.3em;
-	}
+  width: 185.92px;
+  height: 74.56px;
+  }
+  .program-item {
+  width: 185.92px;
+  height: 152.84px;
+  box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+  border-radius: 13.9792px;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  }
 
+  .program h3{
+  margin: 4px 0 19px;
+  padding: 0 7px 0 9px;
+  font-size: 14px;
+  line-height: 1em;
+  }
+  .program-text {
+  padding: 0 7px 0 9px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 7px;
+  line-height: 1.3em;
+  }
+}
 
 @media (min-width: 992px) and (max-width: 1279px) { /*tablet*/
   .program {
@@ -538,7 +556,11 @@ body {
 .reviews-wrapper-block {
 	max-width: 1192px;
 	margin: auto;
-	padding: 45px 15px 125px 15px;
+	align-content: center;
+	padding-bottom: 95px;
+}
+.main-text-paragraph {
+	padding-top: 45px;
 }
 .course-block {
 	font-size: 55px;
@@ -548,12 +570,12 @@ body {
 	color: black;
 }
 .additional-wrapper-block {
-	width: 791px;
+	max-width: 791px;
+	padding-bottom: 30px;
 	box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
 	background-color: #ffffff;
 	border-radius: 30px;
-    margin-top: 70px;
-	padding-bottom: 25px;	
+	margin-top: 70px;
 }
 .additional-text-block {
 	font-family: Roboto;
@@ -585,14 +607,110 @@ body {
 	width: auto;
 }
 .picture-block {
-	padding: 12px 0 0 31px;
+	padding: 14px 0 0 31px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) /*tablet*/ {
+	.reviews-wrapper-block {
+		max-width: 689px;
+		margin-left: 71px;
+		padding-bottom: 65px;
+	}
+	.additional-wrapper-block {
+		max-width: 466px;
+		padding-bottom: 2px;
+		margin-top: 46px;
+		border-radius: 17px;
+	}
+	.main-text-paragraph {
+		padding-top: 20px;
+	}
+	.course-block {
+		font-size: 32px;
+		line-height: 32px;
+	}	
+	.additional-text-block {
+		font-size: 12px;
+		line-height: 18px;
+		padding: 19px 50px 0 29px;
+	}
+	.name-block {
+		padding: 0 0 24px 4px;
+	}
+	.name {
+		font-size: 17px;
+		line-height: 17px;
+	}
+	.facebook-icon {
+		width: 19px;
+		height: 18px;
+	}
+	.girl {
+		width: 110px;
+		height: 98px;
+	}
+	.picture-block {
+		padding: 2px 14px 13px 17px;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 991px) /*smartphone*/ {
+	.reviews-wrapper-block {
+		max-width: 308px;
+		margin-left: auto;
+		padding-bottom: 60px;
+   }
+    .additional-wrapper-block {
+	    max-width: 466px;
+        padding-bottom: 0;
+        margin-top: 29px;
+        border-radius: 17px;
+   }
+    .course-block {
+	    font-size: 26px;
+	    line-height: 26px;
+	}
+	.additional-text-block {
+		font-size: 10px;
+        line-height: 15px;
+        padding: 18px 21px 0 22px;
+	}
+	.main-text-paragraph {
+		width: 280px;
+		padding-top: 20px;
+	}
+	.name {
+		font-size: 14px;
+		line-height: 14px;
+	}
+	.facebook-icon {
+		width: 17px;
+		height: 18px;
+	}
+	.girl {
+		width: 98px;
+		height: 86px;
+	}
+	.name-block {
+		padding: 0 0 27px 4px;
+	}
+	.picture-block {
+		padding: 1px 1px 12px 11px;
+	}
+}
+
+@media (max-width: 671px) and (min-width: 376px){
+	.start-date{
+flex-direction: column;
+	}
+}
+.date-wrapper{
+	max-width: 1221px;
+	margin: auto;
+	padding: 180px 15px;
 }
 .start-date {
-	background-color: #9dc9c8;
-	display: block;
+	background-color: #9DC9C8;
 	width: 100%;
-	height: 780px;
-	margin: auto;
 	position: relative;
 }
 .date {
@@ -600,25 +718,34 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-weight: 700;
 	padding-top: 10px;
+	margin-bottom: 54px;
 }
-.start-date h1 {
-	font-family: "Roboto Slab", serif;
-	font-size: 55px;
+.start-date h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 55px;	
 }
 .price {
+	font-family: "Roboto", sans-serif;
 	font-size: 25px;
 	font-weight: 400;
-	font-family: "Roboto", sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 .cost {
 	font-size: 80px;
 	font-weight: 400;
-	font-family: "Roboto", sans-serif;
-	margin-top: -30px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 0;
+	margin-bottom: 153px;
 }
+.level-block-wrapper{
+	display: flex;
+	max-width: 658px;
+	}
 .level-block {
-	max-width: 731px;
+	max-width: 294px;
 	max-height: 125px;
+	margin-right: 20px;
 }
 .start-date .info {
 	font-size: 18px;
@@ -642,19 +769,28 @@ body {
 	height: 70px;
 	display: inline-block;
 }
-.now {
-	max-width: 294px;
-	display: inline-block;
-	padding-left: 40px;
+@media (max-width: 671px) and (min-width: 376px){
+	.footer{
+flex-direction: column;
+	}
+}
+.footer-wrapper {
+	max-width: 1221px;
+    margin: auto;
+	padding: 40px 15px;
+}
+.footer-wrapper-flex{
+	display: flex;
+	width: 100%;
+	margin-bottom: 148px;
 }
 .footer {
-	display: flex;
 	background-color: black;
-	max-width: 100%;
-	height: 390px;
-	margin-top: -18px;
+	width: 100%;
 }
-
+.contacts{
+	max-width: 290px;
+}
 .phone {
 	margin: 54px 0px 0px -50px;
 }
@@ -663,7 +799,6 @@ body {
 	line-height: 25px;
 	color: #ffffff;
 }
-
 .phone-icon {
 	margin: 0 17px 0 0;
 	max-width: 27px;
@@ -686,7 +821,7 @@ body {
 	display: flex;
 	width: 100%;
 	flex-direction: column;
-	padding: 50px 0px 0px 120px;
+	position: relative;
 }
 .social-icons {
 	padding: 28px 0 0 0;
@@ -710,13 +845,9 @@ body {
 	max-height: 34px;
 	margin-left: 22px;
 }
-.footer-syncing {
-	position: relative;
-	top: 100%;
+.footer-syncing-text {
+	margin-top: 100px;
 	color: white;
 	max-width: 230px;
 	font-size: 18px;
-	line-height: 18px;
-	margin: 34px 0px 0px -1px;
-}
 }
