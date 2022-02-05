@@ -589,7 +589,6 @@ line-height: 1.3em;
 @media screen and (min-width: 992px) and (max-width: 1279px) /*tablet*/ {
 	.reviews-wrapper-block {
 		max-width: 689px;
-		margin-left: 71px;
 		padding-bottom: 65px;
 	}
 	.additional-wrapper-block {
