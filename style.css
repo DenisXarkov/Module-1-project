@@ -470,8 +470,6 @@ body {
   margin-left: 0;
   padding-bottom: 47px;
   }
-  .program img {
-  }
 	.program h3 {
 		margin: 4px 0 19px;
 		padding: 0 7px 0 9px;
@@ -692,9 +690,6 @@ flex-direction: column;
 	max-width: 316px;
 	min-width: 148,18px;
   }
-  .phone {
-	/* margin: 54px 0px 0px -50px; */
-  }
   .phone span {
 	font-size: 25px;
 	line-height: 25px;
@@ -766,7 +761,6 @@ flex-direction: column;
 	  flex-direction: column;
 	}
   }
-}
 @media only screen and (max-width: 1279px) and (min-width: 992px){
 	.level-block-item{
 flex-direction: column;
@@ -814,7 +808,6 @@ flex-direction: row;
 	  flex-direction: column;
 	}
   }
-}
 @media only screen and (max-width: 991px) and (min-width: 320px){
 	.level-block-wrapper{
 flex-direction: column;
