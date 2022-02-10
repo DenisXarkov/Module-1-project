@@ -965,6 +965,60 @@ body {
 	max-width: 230px;
 	font-size: 18px;
   }
+  /* Start date media */
+  @media only screen and (max-width: 1279px) and (min-width: 992px) {
+	.date-wrapper {
+	  max-width: 689px;
+	  padding: 107px 10px;
+	}
+  
+	.start-date h2 {
+	  font-size: 32px;
+	}
+	.price {
+	  font-size: 14px;
+	}
+	.cost {
+	  font-size: 46px;
+	}
+	.level-block-item {
+	  flex-direction: column;
+	  font-size: 10px;
+	  max-width: 170px;
+	}
+	.level-block-item h3 {
+	  flex-direction: column;
+	  font-size: 14px;
+	}
+	.level-block {
+	  max-width: 381px;
+	}
+  }
+  @media only screen and (max-width: 991px) and (min-width: 320px) {
+	.date-wrapper {
+	  max-width: 309px;
+	  padding: 70px 10px;
+	}
+  
+	.start-date h2 {
+	  font-size: 26px;
+	  max-width: 224px;
+	}
+	.price {
+	  font-size: 12px;
+	}
+	.cost {
+	  font-size: 37px;
+	}
+	.level-block-item {
+	  font-size: 10px;
+	  max-width: 170px;
+	}
+	.level-block-item h3 {
+	  font-size: 12px;
+	}
+  }
+   /* Footer-Media */
   /* десктопная и планшетная версии */
   @media only screen and (max-width: 1279px) and (min-width: 992px){
 	.start-date {
@@ -981,21 +1035,25 @@ body {
 				flex-direction: column;
 				font-size: 14px;
 					}
+					.synchro {
+						max-width: 66px;
+					  }
+					.footer-wrapper {
+						max-width: 660px;
+					  }
 					.footer-wrapper-flex{
-						flex-direction: column;
 						font-size: 14px;
 							}
 							.contacts{
 								flex-direction: column;
+								
+							}
+							.contacts-item{
 								font-size: 14px;
 							}
-								.social-icons{
-									flex-direction: row;
-										}
 										.footer-syncing-text{
 											flex-direction: column;
-											font-size: 14px;
-											bottom: 100px;
+											font-size: 10px;
 										}
 										}
 /* мобильная версия */
@@ -1010,25 +1068,33 @@ body {
 		flex-direction: column;
 		font-size: 10px;
 			}
+			.footer-wrapper {
+				max-width: 309px;  
+			}
+			.synchro {
+				max-width: 53px;
+			}
 			.footer-wrapper-flex{
 				flex-direction: column;
 				font-size: 14px;
 					}
 					.contacts-item{
 						flex-direction: row;
-						font-size: 14px;
-						margin-top: 30px;
-						margin-right: 68px;
+						font-size: 12px;
 							}
 							.contacts-icon{
-								max-width: 12,58px;
+								max-width: 13px;
 									}
 									.social-icons{
 										flex-direction: row;
-										max-width: 16px;
+										margin-bottom: 40px;
 											}
+											.social-icons img {
+												max-width: 16px;
+											  }
 											.footer-syncing-text{
+												margin-top: 48px;
 												flex-direction: row;
-												font-size: 14px;
+												font-size: 10px;
 													}
 												}
