@@ -1051,6 +1051,9 @@ body {
 							.contacts-item{
 								font-size: 14px;
 							}
+							.social-icons img {
+								max-width: 18px;
+							  }
 										.footer-syncing-text{
 											flex-direction: column;
 											font-size: 10px;
